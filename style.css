@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(Polices/Raleway-Black.ttf)
+         url(Polices/Raleway-BlackItalic.ttf)
+         url(Polices/Raleway-Bold.ttf)
+         url(polices/Raleway-BoldItalic.ttf)
+         url(Polices/Raleway-ExtraBold.ttf)
+         url(Polices/Raleway-ExtraBoldItalic.ttf)
+
+
+}
+
+/* Header */
+body{
+    font-family: 'Raleway';
+}
+#entete
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    padding-bottom: 15px;
+}
+
+#logo img
+{
+    width: 125px;
+    height: 55px;
+}
+
+header h1
+{
+    
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 3px 0 3px 1px;
+}
+
+header h2
+{
+    
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+nav
+{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex:1;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+}
+nav li
+{
+    margin-right: 15px;
+}
+nav li a
+{
+text-decoration: none;
+}
+#title
+{
+    flex:1;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;   
+}
