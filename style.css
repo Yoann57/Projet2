@@ -4,14 +4,21 @@
     src: url(Polices/Raleway-Black.ttf)
          url(Polices/Raleway-BlackItalic.ttf)
          url(Polices/Raleway-Bold.ttf)
-         url(polices/Raleway-BoldItalic.ttf)
+         url(Polices/Raleway-BoldItalic.ttf)
          url(Polices/Raleway-ExtraBold.ttf)
          url(Polices/Raleway-ExtraBoldItalic.ttf)
-
-
+         url(Polices/Raleway-Regular.ttf)
+         url(Polices/Raleway-ExtraLight.ttf)
+         url(Polices/Raleway-ExtraLightItalic.ttf)
+         url(Polices/Raleway-Italic.ttf)
+         url(Polices/Raleway-Medium.ttf)
+         url(Polices/Raleway-LightItalic.ttf)
+         url(Polices/Raleway-MediumItalic.ttf)
+         url(Polices/Raleway-SemiBold.ttf)
+         url(Polices/Raleway-SemiBoldItalic.ttf)
+         url(Polices/Raleway-Thin.ttf)
+         url(Polices/Raleway-ThinItalic.ttf)
 }
-
-/* Header */
 body{
     font-family: 'Raleway';
 }
@@ -25,12 +32,12 @@ header
 #logo
 {
     display: flex;
-    padding-bottom: 15px;
+    margin:15px 10px 10px 35px;
 }
 
 #logo img
 {
-    width: 125px;
+    width: 123px;
     height: 55px;
 }
 
@@ -39,7 +46,7 @@ h1
     
     font-size: 1.8em;
     font-weight: bold;
-    margin: 3px 0 3px 1px;
+    margin: 15px 10px 10px 35px;
 }
 
 h2
@@ -48,6 +55,7 @@ h2
     font-size: 1.1em;
     margin-top: 0px;
     font-weight: normal;
+    margin: 15px 10px 20px 35px;
 }
 nav
 {
@@ -67,6 +75,11 @@ nav li
 nav li a
 {
 text-decoration: none;
+color: blue;
+}
+a:hover
+{
+color: red;
 }
 
 footer ul
@@ -77,9 +90,17 @@ footer ul
 footer a
 {
     text-decoration: none;
+    color: black;
 }
 footer
 {
     display:flex;
+    background-color:#F2F2F2 ;
+}
+.footertitle
+{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
 }
 
