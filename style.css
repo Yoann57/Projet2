@@ -15,17 +15,16 @@
 body{
     font-family: 'Raleway';
 }
-#entete
+header
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #logo
 {
     display: flex;
-    flex-direction: row;
-    flex:1;
     padding-bottom: 15px;
 }
 
@@ -35,7 +34,7 @@ body{
     height: 55px;
 }
 
-header h1
+h1
 {
     
     font-size: 1.8em;
@@ -43,7 +42,7 @@ header h1
     margin: 3px 0 3px 1px;
 }
 
-header h2
+h2
 {
     
     font-size: 1.1em;
@@ -53,16 +52,13 @@ header h2
 nav
 {
     display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    flex:1;
+    flex-direction: row;
 }
 
 nav ul
 {
     list-style-type: none;
     display: flex;
-    align-items: flex-end;
 }
 nav li
 {
@@ -72,11 +68,18 @@ nav li a
 {
 text-decoration: none;
 }
-#title
+
+footer ul
 {
-    flex:1;
+   list-style-type: none;
+   margin-right:20%;  
 }
-footer ul{
-    list-style-type: none;
-    display: flex;   
+footer a
+{
+    text-decoration: none;
 }
+footer
+{
+    display:flex;
+}
+
