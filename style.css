@@ -1,104 +1,88 @@
 
 @font-face {
-    font-family: 'Raleway';
-    src: url(Polices/Raleway-Black.ttf)
-         url(Polices/Raleway-BlackItalic.ttf)
-         url(Polices/Raleway-Bold.ttf)
-         url(Polices/Raleway-BoldItalic.ttf)
-         url(Polices/Raleway-ExtraBold.ttf)
-         url(Polices/Raleway-ExtraBoldItalic.ttf)
-         url(Polices/Raleway-Regular.ttf)
-         url(Polices/Raleway-ExtraLight.ttf)
-         url(Polices/Raleway-ExtraLightItalic.ttf)
-         url(Polices/Raleway-Italic.ttf)
-         url(Polices/Raleway-Medium.ttf)
-         url(Polices/Raleway-LightItalic.ttf)
-         url(Polices/Raleway-MediumItalic.ttf)
-         url(Polices/Raleway-SemiBold.ttf)
-         url(Polices/Raleway-SemiBoldItalic.ttf)
-         url(Polices/Raleway-Thin.ttf)
-         url(Polices/Raleway-ThinItalic.ttf)
+    font-family: "Raleway";
+    src: url("Polices/Raleway-Regular.ttf")
+}
+@font-face {
+    font-family: "Raleway";
+    font-weight: bolder;
+    src: url("Polices/Raleway-Bold.ttf")
+}
+@font-face{
+    font-family: "Raleway";
+    font-weight: bold;
+    src: url("Polices//Raleway-SemiBold.ttf")
+}
+@font-face {
+    font-family: "Raleway";
+    font-weight: lighter;
+    src: url("Polices/Raleway-Light.ttf")
 }
 body{
-    font-family: 'Raleway';
+    font-family: "Raleway";
 }
-header
-{
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
-#logo
-{
+#logo{
     display: flex;
-    margin:15px 10px 10px 35px;
+    margin:15px 10px 15px 35px;
 }
-
-#logo img
-{
-    width: 123px;
-    height: 55px;
+#logo img{
+    width: 91px;
+    height: 40px;
 }
-
-h1
-{
-    
-    font-size: 1.8em;
-    font-weight: bold;
-    margin: 15px 10px 10px 35px;
-}
-
-h2
-{
-    
-    font-size: 1.1em;
-    margin-top: 0px;
-    font-weight: normal;
-    margin: 15px 10px 20px 35px;
-}
-nav
-{
+nav{
     display: flex;
     flex-direction: row;
 }
-
-nav ul
-{
+nav ul{
     list-style-type: none;
     display: flex;
 }
-nav li
-{
-    margin-right: 15px;
+nav li{
+    margin-right: 57px;
+    font-size: 0.9em;
 }
-nav li a
-{
-text-decoration: none;
-color: blue;
+nav li a{
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;    
 }
-a:hover
-{
-color: red;
+a:hover{
+    color: red;
 }
-
-footer ul
-{
-   list-style-type: none;
-   margin-right:20%;  
+h1{
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin: 15px 10px 7px 35px;
 }
-footer a
-{
+h2{
+    font-size: 15px;
+    margin-top: 0px;
+    margin: 7px 10px 430px 35px;
+    font-style: normal;
+    font-weight: normal;
+}
+footer ul{
+    list-style-type: none;
+    margin-right:20%; 
+    line-height: 175%;
+}
+footer a{
     text-decoration: none;
     color: black;
+    padding-bottom: 5px;    
 }
-footer
-{
+footer{
     display:flex;
     background-color:#F2F2F2 ;
+    font-weight: lighter;
+    font-size: 15px; 
 }
-.footertitle
-{
+.footerbold{
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 5px;
