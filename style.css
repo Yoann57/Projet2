@@ -1,90 +1,221 @@
-
 @font-face {
     font-family: "Raleway";
     src: url("Polices/Raleway-Regular.ttf")
 }
+
 @font-face {
     font-family: "Raleway";
     font-weight: bolder;
     src: url("Polices/Raleway-Bold.ttf")
 }
-@font-face{
+
+@font-face {
     font-family: "Raleway";
     font-weight: bold;
     src: url("Polices//Raleway-SemiBold.ttf")
 }
+
 @font-face {
     font-family: "Raleway";
     font-weight: lighter;
     src: url("Polices/Raleway-Light.ttf")
 }
-body{
+
+body {
     font-family: "Raleway";
 }
-header{
+
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-#logo{
+
+#logo {
     display: flex;
-    margin:15px 10px 15px 35px;
+    margin: 15px 10px 15px 35px;
 }
-#logo img{
+
+#logo img {
     width: 91px;
     height: 40px;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
     display: flex;
 }
-nav li{
+
+nav li {
     margin-right: 57px;
     font-size: 0.9em;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: #0065FC;
-    font-weight: bold;    
 }
-a:hover{
+
+.Hébergements a {
+    border-top: 3px blue solid;
+    padding-top: 21px;
+}
+
+.Activités a {
+    color: black;
+}
+
+.Sinscrire a {
+    font-weight: bold;
+}
+
+a:hover {
     color: red;
 }
-h1{
+
+h1 {
     font-size: 1.3em;
     font-weight: bolder;
     margin: 15px 10px 7px 35px;
 }
-h2{
+
+h2 {
     font-size: 15px;
     margin-top: 0px;
-    margin: 7px 10px 430px 35px;
+    margin: 7px 10px 43px 35px;
     font-style: normal;
     font-weight: normal;
 }
-footer ul{
+
+#searchbar {
+    margin-left: 40px;
+    margin-bottom: 100px;
+    display:flex;
+   
+    
+}
+
+.fas {
+    border: 1px white;
+    padding: 9px;
+    border-radius: 7px 0 0 7px;
+    background-color: #F2F2F2
+    
+}
+
+.bouton {
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 7px 7px 0;
+    padding: 9px;
+    border-color:#0065FC;
+  
+}
+.champ{
+    border-color: #F2F2F2 ;
+    height: 30px;
+}
+
+footer ul {
     list-style-type: none;
-    margin-right:20%; 
+    margin-right: 20%;
     line-height: 175%;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: black;
-    padding-bottom: 5px;    
+    padding-bottom: 5px;
 }
-footer{
-    display:flex;
-    background-color:#F2F2F2 ;
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
     font-weight: lighter;
-    font-size: 15px; 
+    font-size: 15px;
 }
-.footerbold{
+
+.footerbold {
     font-size: 15px;
     font-weight: bold;
     padding-bottom: 5px;
 }
 
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: initial;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    nav {
+        text-align: left;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        padding-left: 10px;
+        margin-right: 50px;
+    }
+
+    nav li a {
+        font-size: 1.3em;
+    }
+
+    .Hébergements a {
+        border-bottom: 3px blue solid;
+        padding-bottom: 21px;
+        border-top: 0;
+    }
+
+    .Sinscrire a {
+        display: flex;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    footer ul {
+        margin-right: 10%;
+        line-height: 175%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile {
+        display: initial;
+        text-decoration: none;
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #0065FC;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: space-between;
+    }
