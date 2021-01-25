@@ -1,24 +1,24 @@
 @font-face {
     font-family: "Raleway";
-    src: url("Polices/Raleway-Regular.ttf")
+    src: url("polices/Raleway-Regular.ttf")
 }
 
 @font-face {
     font-family: "Raleway";
     font-weight: bolder;
-    src: url("Polices/Raleway-Bold.ttf")
+    src: url("polices/Raleway-Bold.ttf")
 }
 
 @font-face {
     font-family: "Raleway";
     font-weight: bold;
-    src: url("Polices//Raleway-SemiBold.ttf")
+    src: url("polices//Raleway-SemiBold.ttf")
 }
 
 @font-face {
     font-family: "Raleway";
     font-weight: lighter;
-    src: url("Polices/Raleway-Light.ttf")
+    src: url("polices/Raleway-Light.ttf")
 }
 
 body {
