@@ -87,33 +87,42 @@ h1 {
 h2 {
     font-size: 15px;
     margin-top: 0px;
-    margin: 7px 10px 43px 35px;
+    margin: 7px 10px 25px 35px;
     font-style: normal;
     font-weight: normal;
 }
 
 #searchbar {
     margin-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: flex;
+    
 }
 
 .fa-map-marker-alt {
     border: 1px white;
-    padding: 9px;
+    padding: 9px 12px 9px 12px;
     color: black;
-    border-radius: 7px 0 0 7px;
+    border-radius: 10px 0 0 10px;
     background-color: #F2F2F2
 }
 
 .bouton {
     background-color: #0065FC;
     color: white;
-    border-radius: 0 7px 7px 0;
-    padding: 9px;
+    border-radius: 0 10px 10px 0;
+    height:34px;
     border-color: #0065FC;
+    padding:0 10px 0 10px;
+    
+    
 }
-
+input {
+    border:none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    height:30px;
+    }
 .loupe {
     display: none
 }
@@ -122,13 +131,15 @@ h2 {
     border-color: #F2F2F2;
     height: 30px;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 #menu {
     display: flex;
     margin-bottom: 20px;
-    width: 65%;
+    width: 60%;
     flex-wrap: wrap;
+    
 
 }
 
@@ -137,7 +148,7 @@ h2 {
 }
 
 .filtres {
-    border: 2px solid #F2F2F2;
+    border: 2px solid rgb(219, 219, 219);
     border-radius: 45px;
     padding-right: 15px;
     margin-right: 1rem;
@@ -145,12 +156,12 @@ h2 {
     font-weight: bold;
     height: 46px;
     padding-top: -10px;
+    margin-bottom: 10px;
 
 }
 
 .filtres P {
     padding-left: 14px;
-
     width: 100%;
     margin-top: 13px;
 
@@ -158,18 +169,6 @@ h2 {
 
 .dogp {
     min-width: 150px;
-}
-
-
-.fa-money-bill-wave {
-    height: 15px;
-    width: 15px;
-    color: #0065FC;
-    border: 1px solid transparent;
-    border-radius: 55%;
-    background-color: #DEEBFF;
-    padding: 18px 20px 18px 16px;
-
 }
 
 .filtres i {
@@ -249,7 +248,6 @@ h2 {
     border-radius: 17px 17px 0 0;
     padding: 5px;
 
-
 }
 
 .carte {
@@ -289,7 +287,6 @@ h2 {
     justify-content: space-between;
     margin-bottom: 15px;
     margin-top: 12px;
-
 }
 
 #populaires h1 {
@@ -304,7 +301,6 @@ h2 {
     border-radius: 19px;
     margin-bottom: 40px;
     box-shadow: 1px 1px 5px rgb(214, 213, 213);
-
 }
 
 .pop img {
@@ -312,7 +308,6 @@ h2 {
     height: 140px;
     border-radius: 17px 0 0 17px;
     padding: 4px 14px 0 4px;
-
 }
 
 .pop p {
@@ -329,13 +324,14 @@ h2 {
 .popfa {
     padding-top: 25%;
 }
-
+.grandem{
+    display:none;
+}
 .grande {
     border: 3px solid transparent;
     border-radius: 17px;
     width: 270px;
     box-shadow: 1px 1px 5px rgb(214, 213, 213);
-
 }
 
 .grande img {
@@ -349,8 +345,7 @@ h2 {
     border-radius: 17px;
     width: 270px;
     box-shadow: 1px 1px 5px rgb(214, 213, 213);
-    height: 50%;
-
+    
 }
 
 .pomegues img {
@@ -371,7 +366,6 @@ h2 {
     width: 270px;
     height: 130px;
     border-radius: 17px 17px 0 0;
-
 }
 
 .small {
@@ -380,7 +374,6 @@ h2 {
     width: 270px;
     box-shadow: 1px 1px 5px rgb(214, 213, 213);
     height: 45%;
-
 }
 
 .small img {
@@ -392,7 +385,6 @@ h2 {
 #middle {
     display: flex;
     margin-bottom: 45px;
-
 }
 
 #imagesbas {
@@ -476,7 +468,6 @@ footer {
     .containergauche {
         width: 100%;
         margin: 0px;
-
     }
 
     #populaires {
@@ -488,7 +479,6 @@ footer {
         flex-wrap: wrap;
         margin-bottom: 520px;
         margin-right: 10px;
-
     }
 
     @media screen and (max-width: 886px) {
@@ -526,7 +516,6 @@ footer {
             .Hébergements {
                 padding-right: ;
                 padding-left: 30px;
-
                 margin-left: -25px;
             }
 
@@ -585,18 +574,20 @@ footer {
             }
 
             .filtres {
-                border: 2px solid #F2F2F2;
+
                 border-radius: 45px;
                 padding-right: 15px;
                 display: flex;
                 margin-right: 0;
 
             }
-
+            
             .bouton {
                 display: none;
             }
-
+            .champ{
+                 height:34px;
+            }
             .loupe {
                 display: initial;
                 background-color: #0065FC;
@@ -630,15 +621,16 @@ footer {
             .carte {
                 width: 100%;
                 padding: 5px;
+                margin-bottom: 30px;
             }
 
             .carte img {
                 width: 100%;
                 padding: 0 10px 10px 0px;
-
-
             }
-
+            .pop{
+                max-width: 450px;
+            }
             .pop img {
                 width: 140px;
                 height: 146px;
@@ -647,28 +639,42 @@ footer {
             #imagesbas {
                 flex-direction: row;
                 flex-wrap: wrap;
-                margin-bottom: 1400px;
+                margin-bottom: 970px;
                 margin-right: 10px;
+                max-width: 450px; 
+                padding:0px;
+                
+            }
+            .grandem{
+                display:initial;
+                border: 1px solid transparent;
+                border-radius: 17px;
+                padding:0px;
+                width: 270px;
+                box-shadow: 1px 1px 5px rgb(214, 213, 213);
+            }
+            
+            .grandem img {
+                border-radius: 17px 17px 0 0;
+                padding: 0px;
             }
 
-            .pomegues,
-            .pomegues img,
-            .grande,
-            .grande img,
-            .frioul,
-            .frioul img,
-            .small,
-            .small img {
+            .grande{
+                display:none;
+            }
+            .pomegues,.grandem,.frioul,.small {
                 width: 100%;
-
+            
+                margin-bottom: 30px;
             }
-
-
+            .pomegues img,.grandem img,.frioul img,.small img{
+                width:100%;
+                height:146px;
+            }
             footer {
                 display: flex;
                 flex-direction: column;
                 width: 100%;
-
                 padding-bottom: 15px;
                 margin-top: 10px;
             }
