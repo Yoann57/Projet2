@@ -136,7 +136,7 @@ input {
 
 #menu {
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     width: 60%;
     flex-wrap: wrap;
     
@@ -279,7 +279,8 @@ input {
     border-radius: 17px;
     width: 29%;
     padding: 20px;
-    background-color: #F2F2F2
+    background-color: #F2F2F2;
+    
 }
 
 .titrepop {
@@ -497,16 +498,12 @@ footer {
 
             nav {
                 text-align: left;
+                
             }
 
             nav ul {
                 flex-direction: row;
-            }
-
-            nav li {
-
-                margin-right: 50px;
-                margin-left: 0px;
+                width: 300px;
             }
 
             nav li a {
@@ -514,9 +511,9 @@ footer {
             }
 
             .Hébergements {
-                padding-right: ;
+               
                 padding-left: 30px;
-                margin-left: -25px;
+                margin-left: -37px;
             }
 
             .Hébergements a {
@@ -524,16 +521,34 @@ footer {
                 padding-bottom: 21px;
                 border-top: 0;
                 padding-right: 45px;
-                padding-left: 30px;
-                margin-left: -45px;
+                padding-left: 35px;
+                margin-left: -40px;
             }
+            .Activités{
+                padding-left: 37px;
+                margin-left: -42px;
+            }
+            .Activités a{
+                border-bottom: 3px rgb(231, 231, 231) solid;
+                padding-bottom: 21px;
+                padding-right: 65px;
+                padding-left: 55px;
+                margin-left: -52px;
+               
 
+                
+            }
             .Sinscrire a {
                 display: flex;
+               
             }
 
             h1 {
                 width: 300px;
+                
+            }
+            h2{
+               min-width: 200px;
             }
 
             .mobile {
@@ -552,6 +567,8 @@ footer {
                 display: flex;
                 justify-content: space-between;
                 margin-left: 10px;
+                margin-right: 15px;
+                
             }
 
             #logo img {
@@ -597,7 +614,9 @@ footer {
                 margin-left: -3px;
                 border-color: #0065FC;
             }
-
+            .info p{
+               min-width: 250px;
+            }
             #middle {
                 flex-wrap: wrap-reverse;
                 width: 100%;
@@ -605,31 +624,38 @@ footer {
 
             #populaires {
                 width: 100%;
+                min-width: 350px;
             }
 
             #imagesgauche {
                 width: 100%;
-                max-width: 450px;
+                max-width: 400px;
+               
+               
             }
 
             .containergauche {
                 margin: 0px;
-                background-color: #F2F2F2;
+                background-color: white;
+                min-width: 350px;
                 width: 100%;
             }
 
             .carte {
                 width: 100%;
                 padding: 5px;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
 
             .carte img {
                 width: 100%;
                 padding: 0 10px 10px 0px;
             }
+            .txt2{
+                margin-bottom: -35px;
+            }
             .pop{
-                max-width: 450px;
+                max-width: 400px;
             }
             .pop img {
                 width: 140px;
@@ -641,13 +667,15 @@ footer {
                 flex-wrap: wrap;
                 margin-bottom: 970px;
                 margin-right: 10px;
-                max-width: 450px; 
+                margin-left: 25px;
+                min-width: 350px;
+                max-width: 400px; 
                
                 
             }
             .grandem{
                 display:initial;
-                border: 0px solid transparent;
+                
                 border-radius: 17px; 
                 width: 270px;
                 box-shadow: 1px 1px 5px rgb(214, 213, 213);
@@ -675,6 +703,7 @@ footer {
                 display: flex;
                 flex-direction: column;
                 width: 100%;
+                min-width: 400px;
                 padding-bottom: 15px;
                 margin-top: 10px;
             }
