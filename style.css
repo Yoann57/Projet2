@@ -33,7 +33,7 @@ header {
 
 #logo {
     display: flex;
-    margin: 15px 10px 15px 15px;
+    margin: 15px 10px 15px 25px;
 }
 
 #logo img {
@@ -81,19 +81,19 @@ a:hover {
 h1 {
     font-size: 1.3em;
     font-weight: bolder;
-    margin: 15px 10px 7px 15px;
+    margin: 15px 10px 7px 25px;
 }
 
 h2 {
     font-size: 15px;
     margin-top: 0px;
-    margin: 7px 10px 25px 15px;
+    margin: 7px 10px 25px 25px;
     font-style: normal;
     font-weight: normal;
 }
 
 #searchbar {
-    margin-left: 15px;
+    margin-left: 25px;
     margin-bottom: 25px;
     display: flex;
     
@@ -137,9 +137,7 @@ input {
 
 #menu {
     display: flex;
-    justify-content: space-between;
-    margin: 0 0 5px 15px;
-    
+    margin: 0 0 5px 25px;  
     flex-wrap: wrap;
    
 }
@@ -151,13 +149,13 @@ input {
 .filtres {
     border: 2px solid rgb(219, 219, 219);
     border-radius: 45px;
-    padding-right: 15px;
-    margin-right: 1rem;
+    padding-right: 15px;  
     display: flex;
     font-weight: bold;
     height: 46px;
     padding-top: -10px;
     margin-bottom: 10px;
+    margin-left:25px;
 
 }
 
@@ -165,6 +163,8 @@ input {
     padding-left: 14px;
     width: 100%;
     margin-top: 13px;
+    padding-right:5px ;
+    
 
 }
 
@@ -188,7 +188,7 @@ input {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .fa-info {
@@ -216,9 +216,9 @@ input {
     border: 7px solid transparent;
     border-radius: 17px;
     padding: 20px;
-    width: 60%;
-    margin-left: 15px;
-    margin-right: 25px;
+    width: 58%;
+    margin-left: 25px;
+    margin-right: 36px;
     background-color: #F2F2F2;
    
 }
@@ -391,8 +391,8 @@ input {
 }
 
 #imagesbas {
-    margin-left: 15px;
-    margin-bottom: 45px;
+    margin:20px 25px 45px 25px;
+   
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -412,7 +412,7 @@ input {
 
 footer ul {
     list-style-type: none;
-    margin-right: 20%;
+    width: 100%;
     line-height: 175%;
 }
 
@@ -449,15 +449,15 @@ footer {
 
 @media screen and (max-width: 1024px) {
     footer ul {
-        margin-right: 10%;
+       width: 90%;
 
     }
 
     #middle {
         flex-wrap: wrap;
         width: 100%;
+        
     }
-
     #imagesgauche {
         width: 100%;
     }
@@ -475,7 +475,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         margin-bottom: 520px;
-        margin-right: 10px;
+       
     }
 
     @media screen and (max-width: 886px) {
@@ -567,7 +567,7 @@ footer {
             #menu {
                 display: flex;
                 flex-wrap: wrap;
-                margin-left: 15px;
+                justify-content: space-between;
                 margin-right: 0;
                 
             }
@@ -582,7 +582,8 @@ footer {
                 border-radius: 45px;
                 padding-right: 15px;
                 display: flex;
-                margin-right: 0;
+                margin-right:0;
+                margin-left:0;
 
             
             }
@@ -607,29 +608,37 @@ footer {
             #middle {
                 flex-wrap: wrap-reverse;
                 width: 100%;
+                justify-content: center;
+               
+                        
             }
-
             #populaires {
                 width: 100%;
-            
+                max-width: 400px;
+            }
+            .pop{
+                width: 100%;
+                
             }
 
             #imagesgauche {
-                width: 100%;
-                max-width: 400px; 
+                justify-content: center;
+                
             }
 
             .containergauche {
                 margin: 0px;
                 background-color: white;
-                width: 100%;
+                
             }
-
+          
             .carte {
-                width: 100%;
+                width:100%;
+                max-width: 400px;
                 padding: 5px;
                 margin-bottom: 20px;
                 padding:0 10px 0 0;
+               
             }
 
             .carte img {
@@ -639,9 +648,7 @@ footer {
             .txt2{
                 margin-bottom: -35px;
             }
-            .pop{
-                max-width: 400px;
-            }
+            
             .pop img {
                 width: 140px;
                 height: 146px;
@@ -650,16 +657,15 @@ footer {
             #imagesbas {
                 flex-direction: row;
                 flex-wrap: wrap;
+                justify-content: center;
                 margin-bottom: 970px;
-                margin-right: 10px;
-                margin-left: 25px;
-                max-width: 400px; 
-               
+                
+
                 
             }
             .grandem{
                 display:initial;
-                
+                max-width: 400px;
                 border-radius: 17px; 
                 width: 270px;
                 box-shadow: 1px 1px 5px rgb(214, 213, 213);
@@ -674,9 +680,10 @@ footer {
                 display:none;
             }
             .pomegues,.grandem,.frioul,.small {
-                width: 100%;
+               width: 100%;
                 height:auto;
                 margin-bottom: 30px;
+                max-width: 400px;
             }
             .pomegues img,.grandem img,.frioul img,.small img{
                 width:100%;
