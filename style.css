@@ -471,204 +471,208 @@ footer {
 
     #imagesbas {
         flex-direction: row;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         margin-bottom: 520px;
         justify-content: space-evenly;
     }
+}
 
-    @media screen and (max-width: 886px) {
-        #imagesbas {
-            margin-bottom: 710px;
-        }
+@media screen and (max-width: 886px) {
+    #imagesbas {
+        margin-bottom: 710px;
+    }
+}
 
-        @media screen and (max-width: 767px) {
-            header {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                width: 100%;
-                margin-left: 0px;
-            }
+@media screen and (max-width: 767px) {
 
-            nav {
-                text-align: left;
-                width: 100%;
-            }
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0px;
+    }
 
-            nav ul {
-                flex-direction: row;
-                width: 90%;
-            }
+    nav {
+        text-align: left;
+        width: 100%;
+    }
 
-            nav li a {
-                font-size: 1.2em;
-            }
+    nav ul {
+        flex-direction: row;
+        width: 90%;
+    }
 
-            .Hébergements {
-                padding-left: 30px;
-                margin-left: -37px;
-            }
+    nav li a {
+        font-size: 1.2em;
+    }
 
-            .Hébergements a {
-                border-bottom: 3px blue solid;
-                padding-bottom: 21px;
-                border-top: 0;
-                padding-right: 30px;
-                padding-left: 32px;
-                margin-left: -40px;
-            }
+    .Hébergements {
+        padding-left: 30px;
+        margin-left: -37px;
+    }
 
-            .Activités a {
-                border-bottom: 3px rgb(231, 231, 231) solid;
-                padding-bottom: 21px;
-                padding-right: 55px;
-                padding-left: 55px;
-                margin-left: -57px;
-            }
+    .Hébergements a {
+        border-bottom: 3px blue solid;
+        padding-bottom: 21px;
+        border-top: 0;
+        padding-right: 30px;
+        padding-left: 32px;
+        margin-left: -40px;
+    }
 
-            h2 {
-                min-width: 200px;
-            }
+    .Activités a {
+        border-bottom: 3px rgb(231, 231, 231) solid;
+        padding-bottom: 21px;
+        padding-right: 55px;
+        padding-left: 55px;
+        margin-left: -57px;
+    }
 
-            .Sinscrire a {
-                position: absolute;
-                top: 35px;
-                left: 280px;
-                text-decoration: none;
-                font-size: 1.2em;
-                font-weight: bold;
-                color: #0065FC;
-            }
+    h2 {
+        min-width: 200px;
+    }
 
-            #logo {
-                display: flex;
-                justify-content: space-between;
-                margin-left: 10px;
-            }
+    .Sinscrire a {
+        position: absolute;
+        top: 35px;
+        left: 280px;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #0065FC;
+    }
 
-            #logo img {
-                width: 105px;
-                height: 40px;
-            }
+    #logo {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
 
-            #menu {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                margin-right: 0;
-            }
+    #logo img {
+        width: 105px;
+        height: 40px;
+    }
 
-            #menu p {
-                width: 100%;
-                margin-right: 0;
-            }
+    #menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 0;
+    }
 
-            .filtres {
-                border-radius: 45px;
-                padding-right: 15px;
-                display: flex;
-                margin-right: 0;
-                margin-left: 0;
-            }
+    #menu p {
+        width: 100%;
+        margin-right: 0;
+    }
 
-            .bouton {
-                display: none;
-            }
+    .filtres {
+        border-radius: 45px;
+        padding-right: 15px;
+        display: flex;
+        margin-right: 0;
+        margin-left: 0;
+    }
 
-            .champ {
-                height: 40px;
-                width: 100%;
-            }
+    .bouton {
+        display: none;
+    }
 
-            .loupe {
-                display: initial;
-                background-color: #0065FC;
-                color: white;
-                border-radius: 10px;
-                padding: 12px 12px 6px 12px;
-                margin-left: -3px;
-                margin-right: 15px;
-                border-color: #0065FC;
-            }
+    .champ {
+        height: 40px;
+        width: 100%;
+    }
 
-            #middle {
-                justify-content: center;
-            }
+    .loupe {
+        display: initial;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 10px;
+        padding: 12px 12px 6px 12px;
+        margin-left: -3px;
+        margin-right: 15px;
+        border-color: #0065FC;
+    }
 
-            #populaires {
-                width: 100%;
-                max-width: 400px;
-                padding: 5px;
-            }
+    #middle {
+        justify-content: center;
+    }
 
-            .pop {
-                width: 100%;
-            }
+    #populaires {
+        width: 100%;
+        max-width: 400px;
+        padding: 5px;
+    }
 
-            #imagesgauche {
-                justify-content: center;
-            }
+    .pop {
+        width: 100%;
+    }
 
-            .containergauche {
-                margin: 0px;
-                background-color: white;
-            }
+    #imagesgauche {
+        justify-content: center;
+    }
 
-            .carte {
-                width: 100%;
-                max-width: 400px;
-                padding: 5px;
-                margin-bottom: 20px;
-                padding: 0 10px 0 0;
-            }
+    .containergauche {
+        margin: 0px;
+        background-color: white;
+    }
 
-            .carte img {
-                width: 100%;
-            }
+    .carte {
+        width: 100%;
+        max-width: 400px;
+        padding: 5px;
+        margin-bottom: 20px;
+        padding: 0 10px 0 0;
+    }
 
-            .etoiles {
-                padding-bottom: 9px;
-            }
+    .carte img {
+        width: 100%;
+    }
 
-            .txt2 {
-                margin-bottom: -35px;
-            }
+    .etoiles {
+        padding-bottom: 9px;
+    }
 
-            .pop img {
-                width: 140px;
-                height: 146px;
-            }
+    .txt2 {
+        margin-bottom: -35px;
+    }
 
-            #imagesbas {
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-                margin-bottom: 970px;
-            }
+    .pop img {
+        width: 140px;
+        height: 146px;
+    }
 
-            .pomegues,
-            .grande,
-            .frioul,
-            .small {
-                width: 100%;
-                height: auto;
-                margin-bottom: 30px;
-                max-width: 400px;
-            }
+    #imagesbas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 970px;
+    }
 
-            .ipomegues,
-            .vieuxport,
-            .calanque,
-            .ifrioul,
-            .ismall {
-                width: 100%;
-                height: 146px;
-            }
+    .pomegues,
+    .grande,
+    .frioul,
+    .small {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        max-width: 400px;
+    }
 
-            footer {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                padding-bottom: 15px;
-                margin-top: 10px;
-            }
+    .ipomegues,
+    .vieuxport,
+    .calanque,
+    .ifrioul,
+    .ismall {
+        width: 100%;
+        height: 146px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 15px;
+        margin-top: 10px;
+    }
+}
