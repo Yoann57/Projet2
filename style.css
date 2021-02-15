@@ -96,7 +96,6 @@ h2 {
     margin-left: 25px;
     margin-bottom: 25px;
     display: flex;
-    
 }
 
 .fa-map-marker-alt {
@@ -111,18 +110,18 @@ h2 {
     background-color: #0065FC;
     color: white;
     border-radius: 0 10px 10px 0;
-    height:44px;
+    height: 44px;
     border-color: #0065FC;
-    padding:0 10px 0 10px;
-    
-    
+    padding: 0 10px 0 10px;
 }
+
 input {
-    border:none;
+    border: none;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
-    height:40px;
-    }
+    height: 40px;
+}
+
 .loupe {
     display: none
 }
@@ -132,14 +131,12 @@ input {
     height: 40px;
     font-weight: bold;
     padding-left: 10px;
-    
 }
 
 #menu {
     display: flex;
-    margin: 0 0 5px 25px;  
+    margin: 0 0 5px 25px;
     flex-wrap: wrap;
-   
 }
 
 .filtres:hover {
@@ -149,23 +146,20 @@ input {
 .filtres {
     border: 2px solid rgb(219, 219, 219);
     border-radius: 45px;
-    padding-right: 15px;  
+    padding-right: 15px;
     display: flex;
     font-weight: bold;
     height: 46px;
     padding-top: -10px;
     margin-bottom: 10px;
-    margin-left:25px;
-
+    margin-left: 25px;
 }
 
 .filtres P {
     padding-left: 14px;
     width: 100%;
     margin-top: 13px;
-    padding-right:5px ;
-    
-
+    padding-right: 5px;
 }
 
 .dogp {
@@ -200,16 +194,6 @@ input {
     margin-top: 11px;
     margin-right: 12px;
     padding: 5px 6px 11px 11px;
-
-}
-
-
-#imagesgauche {
-
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
 }
 
 .containergauche {
@@ -220,7 +204,12 @@ input {
     margin-left: 25px;
     margin-right: 36px;
     background-color: #F2F2F2;
-   
+}
+
+#imagesgauche {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .txt {
@@ -233,11 +222,16 @@ input {
 .txt2 {
     font-weight: bold;
     margin-left: 2px;
-
 }
 
 .fa-star {
     color: #0065FC;
+    width: 13px;
+    font-size: 14px;
+}
+
+.icon-silver {
+    color: rgb(212, 211, 211);
 }
 
 .etoiles {
@@ -249,7 +243,6 @@ input {
     height: 110px;
     border-radius: 17px 17px 0 0;
     padding: 5px;
-
 }
 
 .carte {
@@ -268,9 +261,9 @@ input {
     margin-block-start: 2px;
     margin-block-end: 2px;
     padding-left: 15px;
+    padding-bottom: 3px;
     color: black;
 }
-
 
 .carte a {
     text-decoration: none;
@@ -282,7 +275,7 @@ input {
     width: 29%;
     padding: 20px;
     background-color: #F2F2F2;
-    
+
 }
 
 .titrepop {
@@ -317,6 +310,7 @@ input {
     margin-block-start: 2px;
     margin-block-end: 2px;
     padding-top: 9px;
+    padding-left: 9px;
 }
 
 .pop a {
@@ -326,63 +320,76 @@ input {
 
 .popfa {
     padding-top: 25%;
+    padding-left: 9px;
 }
-.grandem{
-    display:none;
+
+.vieuxport,
+.calanque,
+.ipomegues,
+.ifrioul,
+.igarde,
+.ilongchamp {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 17px 17px 0 0;
 }
-.grande {
-    
+
+.vieuxport {
+    background-image: url(images/vieuxport.jpg);
+    height: 410px;
+}
+
+.calanque {
+    background-image: url(images/calanque.jpg);
+    height: 410px;
+}
+
+.ipomegues {
+    background-image: url(images/pomegues.jpg);
+    height: 190px;
+}
+
+.ifrioul {
+    background-image: url(images/frioul.jpg);
+    height: 120px;
+    background-position: top;
+}
+
+.igarde {
+    background-image: url(images/garde.jpg);
+    height: 150px;
+    background-position: top;
+}
+
+.ilongchamp {
+    background-image: url(images/longchamp.jpg);
+    height: 150px;
+}
+
+.grande,
+.pomegues,
+.frioul,
+.small {
     border-radius: 17px;
     width: 270px;
     box-shadow: 1px 1px 5px rgb(214, 213, 213);
 }
 
-.grande img {
-    width: 270px;
-    height: 400px;
-    border-radius: 17px 17px 0 0;
+.grande {
+    height: 100%;
 }
 
 .pomegues {
-    
-    border-radius: 17px;
-    width: 270px;
-    box-shadow: 1px 1px 5px rgb(214, 213, 213);
-    height:50%;
-}
-
-.pomegues img {
-    width: 270px;
-    height: 180px;
-    border-radius: 17px 17px 0 0;
+    height: 53%;
 }
 
 .frioul {
-    
-    border-radius: 17px;
-    width: 270px;
-    box-shadow: 1px 1px 5px rgb(214, 213, 213);
-    height: 40%;
-}
-
-.frioul img {
-    width: 270px;
-    height: 130px;
-    border-radius: 17px 17px 0 0;
+    height: 37%;
 }
 
 .small {
-    
-    border-radius: 17px;
-    width: 270px;
-    box-shadow: 1px 1px 5px rgb(214, 213, 213);
     height: 45%;
-}
-
-.small img {
-    width: 270px;
-    height: 150px;
-    border-radius: 17px 17px 0 0;
 }
 
 #middle {
@@ -391,8 +398,7 @@ input {
 }
 
 #imagesbas {
-    margin:20px 25px 45px 25px;
-   
+    margin: 20px 25px 45px 25px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -435,30 +441,22 @@ footer {
     padding-bottom: 5px;
 }
 
-.mobile {
-    display: none;
-}
-
-.desktop {
-    display: initial;
-}
-
 .economique {
     display: flex;
 }
 
 @media screen and (max-width: 1024px) {
     footer ul {
-       width: 90%;
-
+        width: 90%;
     }
 
     #middle {
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         width: 100%;
-        
     }
+
     #imagesgauche {
+        justify-content: space-evenly;
         width: 100%;
     }
 
@@ -473,9 +471,9 @@ footer {
 
     #imagesbas {
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
         margin-bottom: 520px;
-       
+        justify-content: space-evenly;
     }
 
     @media screen and (max-width: 886px) {
@@ -494,15 +492,12 @@ footer {
 
             nav {
                 text-align: left;
-                width:100%;
-                
+                width: 100%;
             }
 
             nav ul {
                 flex-direction: row;
-                
-                width:90%;
-              
+                width: 90%;
             }
 
             nav li a {
@@ -510,7 +505,6 @@ footer {
             }
 
             .Hébergements {
-               
                 padding-left: 30px;
                 margin-left: -37px;
             }
@@ -524,39 +518,32 @@ footer {
                 margin-left: -40px;
             }
 
-            .Activités a{
+            .Activités a {
                 border-bottom: 3px rgb(231, 231, 231) solid;
                 padding-bottom: 21px;
                 padding-right: 55px;
                 padding-left: 55px;
                 margin-left: -57px;
-                
-            }
-            .Sinscrire a {
-                display: flex;
-               
-            }
-            h2{
-               min-width: 200px;
             }
 
-            .mobile {
-                display: initial;
+            h2 {
+                min-width: 200px;
+            }
+
+            .Sinscrire a {
+                position: absolute;
+                top: 35px;
+                left: 280px;
                 text-decoration: none;
-                font-size: 1.3em;
+                font-size: 1.2em;
                 font-weight: bold;
                 color: #0065FC;
-            }
-
-            .desktop {
-                display: none;
             }
 
             #logo {
                 display: flex;
                 justify-content: space-between;
                 margin-left: 10px;
-                
             }
 
             #logo img {
@@ -569,7 +556,6 @@ footer {
                 flex-wrap: wrap;
                 justify-content: space-between;
                 margin-right: 0;
-                
             }
 
             #menu p {
@@ -578,77 +564,76 @@ footer {
             }
 
             .filtres {
-
                 border-radius: 45px;
                 padding-right: 15px;
                 display: flex;
-                margin-right:0;
-                margin-left:0;
-
-            
+                margin-right: 0;
+                margin-left: 0;
             }
+
             .bouton {
                 display: none;
             }
-            .champ{
-                 height:40px;
-                 width: 100%;
+
+            .champ {
+                height: 40px;
+                width: 100%;
             }
+
             .loupe {
                 display: initial;
                 background-color: #0065FC;
                 color: white;
                 border-radius: 10px;
-                padding:12px 12px 6px 12px;
+                padding: 12px 12px 6px 12px;
                 margin-left: -3px;
                 margin-right: 15px;
                 border-color: #0065FC;
-            
             }
+
             #middle {
-                flex-wrap: wrap-reverse;
-                width: 100%;
                 justify-content: center;
-               
-                        
             }
+
             #populaires {
                 width: 100%;
                 max-width: 400px;
+                padding: 5px;
             }
-            .pop{
+
+            .pop {
                 width: 100%;
-                
             }
 
             #imagesgauche {
                 justify-content: center;
-                
             }
 
             .containergauche {
                 margin: 0px;
                 background-color: white;
-                
             }
-          
+
             .carte {
-                width:100%;
+                width: 100%;
                 max-width: 400px;
                 padding: 5px;
                 margin-bottom: 20px;
-                padding:0 10px 0 0;
-               
+                padding: 0 10px 0 0;
             }
 
             .carte img {
                 width: 100%;
-                
             }
-            .txt2{
+
+            .etoiles {
+                padding-bottom: 9px;
+            }
+
+            .txt2 {
                 margin-bottom: -35px;
             }
-            
+
             .pop img {
                 width: 140px;
                 height: 146px;
@@ -659,42 +644,31 @@ footer {
                 flex-wrap: wrap;
                 justify-content: center;
                 margin-bottom: 970px;
-                
-
-                
-            }
-            .grandem{
-                display:initial;
-                max-width: 400px;
-                border-radius: 17px; 
-                width: 270px;
-                box-shadow: 1px 1px 5px rgb(214, 213, 213);
-            }
-            
-            .grandem img {
-                border-radius: 17px 17px 0 0;
-               
             }
 
-            .grande{
-                display:none;
-            }
-            .pomegues,.grandem,.frioul,.small {
-               width: 100%;
-                height:auto;
+            .pomegues,
+            .grande,
+            .frioul,
+            .small {
+                width: 100%;
+                height: auto;
                 margin-bottom: 30px;
                 max-width: 400px;
             }
-            .pomegues img,.grandem img,.frioul img,.small img{
-                width:100%;
-                height:146px;
-                border: 0px solid transparent;
+
+            .ipomegues,
+            .vieuxport,
+            .calanque,
+            .ifrioul,
+            .ismall {
+                width: 100%;
+                height: 146px;
             }
+
             footer {
                 display: flex;
                 flex-direction: column;
                 width: 100%;
-     
                 padding-bottom: 15px;
                 margin-top: 10px;
             }
