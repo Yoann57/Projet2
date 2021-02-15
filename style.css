@@ -303,7 +303,7 @@ input {
     width: 140px;
     height: 140px;
     border-radius: 17px 0 0 17px;
-    padding: 4px 14px 0 4px;
+    padding: 4px 14px 4px 4px;
 }
 
 .pop p {
